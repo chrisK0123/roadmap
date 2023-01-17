@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="roadmap.css">
+
+
+    <title>road map</title>
+</head>
+
+<body>
+
+    <div class='roadmapContainer'>Working student onboarding roadmap
+        <div class='roadmapTable'>
+            <div class='description'>
+                <div class='descriptionApp'> Applicant</div>
+                <div class='descriptionSup'> Supervisor</div>
+               
+            </div>
+            <div class='roadmap'>
+                <!-- Add a svg area, empty -->
+                <svg id="viz_area" height=500
+                    width=1200></svg><!-- top left corner has the coordinate x=0 and y=0. The bottom left corner has the coordinate x=0 and y=height. The top right corner has the coordinate x=width and height=0 -->
+            </div>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="roadmap.js"></script>
+</body>
+
+</html>

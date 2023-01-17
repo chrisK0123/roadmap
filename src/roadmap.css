@@ -1,0 +1,60 @@
+.roadmapContainer {
+	width: 1400px;
+	height: 30em;
+	border: solid black 1px;
+}
+.roadmapTable {
+	margin-top: 8em;
+	height: 20em;
+	width: 1300px;
+	margin-left: 2.5%;
+
+	position: relative;
+}
+.descriptionSup {
+	float: left;
+	border: black solid 1px;
+	height: 40%;
+	width: 1285px;
+	padding: 15px;
+	line-height: 1050%;
+	position: absolute;
+	background-color: #c5c5c5;
+	top: 50%;
+	left: 0;
+	z-index: -1;
+}
+.descriptionApp {
+	float: left;
+	border: black solid 1px;
+	height: 40%;
+	width: 1285px;
+	padding: 15px;
+	line-height: 800%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #e2ded0;
+	z-index: -1;
+}
+
+.roadmap {
+	margin-left: 115px;
+	width: 1200px;
+	z-index: 1;
+}
+
+.monthGroup {
+	top: -35px;
+	position: absolute;
+	height: 110%;
+	border-right: black solid 1px;
+	border-left: black solid 1px;
+
+	text-align: center;
+}
+
+.tick {
+	stroke: none;
+	display: none !important;
+}

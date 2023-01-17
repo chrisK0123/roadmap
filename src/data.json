@@ -1,0 +1,44 @@
+[
+    {
+        "ID": "app1",
+        "WHO": "applicant",
+        "WHAT": "Write application",
+        "WHEN": "2023/01/03",
+        "DEPENDSON": ""
+    },
+    {
+        "ID": "sup1",
+        "WHO": "supervisor",
+        "WHAT": "Review application",
+        "WHEN": "2023/01/15",
+        "DEPENDSON": "app1"
+    },
+    {
+        "ID": "app2",
+        "WHO": "applicant",
+        "WHAT": "Interview",
+        "WHEN": "2023/02/03",
+        "DEPENDSON": "sup1"
+    },
+    {
+        "ID": "sup2",
+        "WHO": "supervisor",
+        "WHAT": "Interview",
+        "WHEN": "2023/02/03",
+        "DEPENDSON": "sup1"
+    },
+    {
+        "ID": "sup3",
+        "WHO": "supervisor",
+        "WHAT": "Communicate decision",
+        "WHEN": "2023/02/14",
+        "DEPENDSON": "sup2"
+    },
+    {
+        "ID": "app3",
+        "WHO": "applicant",
+        "WHAT": "1st day of work",
+        "WHEN": "2023/03/01",
+        "DEPENDSON": "sup3"
+    }
+]
